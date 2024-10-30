@@ -121,7 +121,7 @@ int parse_args(char **args, char *line){
             printf("Token[%d]: NULL\n", num);
         } else{
             args[num] = token;
-            printf("TokenPORRA[%d]: %s\n", num, token);
+            printf("Token[%d]: %s\n", num, token);
         }
         num++;
 
